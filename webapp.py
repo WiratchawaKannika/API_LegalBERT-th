@@ -25,7 +25,7 @@ import pandas as pd
 
 
 app = Flask(__name__)
-run_with_ngrok(app)
+#run_with_ngrok(app)
 
 
 nltk.download('words')
@@ -35,7 +35,7 @@ en_stop = tuple(get_stop_words('en'))
 p_stemmer = PorterStemmer()
 
 pretrained = "monsoon-nlp/bert-base-thai"#@param ["monsoon-nlp/bert-base-thai"] 
-model_path = 'C:\\Users\\LENOVO\\Desktop\\Webapp_LegalBERTth\\model_finetuning\\save_model\\1611409445'
+model_path = 'C:\\Users\\LENOVO\\Desktop\\API_LegalBERth\\model_finetuning\\save_model\\1611409445'
 session_config = tf.compat.v1.ConfigProto(allow_soft_placement=True)
 session_config.gpu_options.allow_growth = True
 sess = tf.compat.v1.Session(config=session_config)
@@ -138,7 +138,7 @@ def text_similarity(tag_law, input_ids_new):
     return question_similar1, anws_similar1, question_similar2, anws_similar2, question_similar3, anws_similar3  
 
 
-@app.route("/predict", methods=["POST"])
+@app.route("/predictLegalBERTth", methods=["POST"])
 def predict():
     if request.method == "POST":
         input_value = request.form["text"]
@@ -157,4 +157,5 @@ def predict():
     return json_data
 
 if __name__ == '__main__':
-    app.run()  
+    app.run(host='0.0.0.0', port=5006 ,debug=True)  
+
