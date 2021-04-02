@@ -24,6 +24,7 @@ when user ask questions about Thai Legal.
 - pip install stop_words
 - pip install wordcloud pyicu
 - pip install pythainlp
+- conda install pytorch torchvision cpuonly -c pytorch
 ```
 
 ### Run API (LegalBERT-th)
@@ -50,3 +51,6 @@ The second. You run api file : webapp.py
 
 #### GitHub my Project (Code scraping data: Thai law, Dataset Development)
 - [here!](https://github.com/WiratchawaKannika/LegalDoc_project4) 
+
+#### WEB APPLICATION 
+- > [click!](http://52.230.5.114:5007/)
