@@ -1,7 +1,9 @@
 # API LegalBERT-th
 
-This is API for LegalBERT-th project : Development of Legal Q&A Dataset and Automatic Question Tagging.
+#### WEB APPLICATION 
+- > [click!](http://52.230.5.114:5007/)
 
+This is API for LegalBERT-th project : Development of Legal Q&A Dataset and Automatic Question Tagging.
 API compatible with [Web  Application (LegalBERT-th)](https://github.com/WiratchawaKannika/WebApp_LegalBERT-th). For Identifying Type of Law of Post in Legal Webboards and display the top 3 questions and answers close to the new questions  
 when user ask questions about Thai Legal.
 
@@ -51,6 +53,3 @@ The second. You run api file : webapp.py
 
 #### GitHub my Project (Code scraping data: Thai law, Dataset Development)
 - [here!](https://github.com/WiratchawaKannika/LegalDoc_project4) 
-
-#### WEB APPLICATION 
-- > [click!](http://52.230.5.114:5007/)
