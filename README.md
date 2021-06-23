@@ -51,5 +51,5 @@ The second. You run api file : webapp.py
 #### GitHub my Project (LegalBERT-th model)
 - [here!](https://github.com/WiratchawaKannika/bert/tree/master/LegalBERT-th) 
 
-#### GitHub my Project (Code scraping data: Thai law, Dataset Development)
+#### GitHub my Project (Code scraping data: Thai Legal, Dataset Development)
 - [here!](https://github.com/WiratchawaKannika/LegalDoc_project4) 
