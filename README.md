@@ -26,6 +26,7 @@ when user ask questions about Thai Legal.
 - pip install stop_words
 - pip install wordcloud pyicu
 - pip install pythainlp
+- pip install nltk
 - conda install pytorch torchvision cpuonly -c pytorch
 ```
 
